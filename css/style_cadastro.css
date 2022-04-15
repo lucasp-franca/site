@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #ADD8E6;
+    color: #EE2689;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.borda {
+    border: 1px solid white;
+    padding: 4px 20px;
+    border-radius: 16px;
+}
+
+a:hover {
+    color: #EE2689;
+    text-decoration: underline;
+}
+
+.borda:hover {
+    border-color: #EE2689;
+    color: #EE2689;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.cadastro .container {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.cadastro .container .card {
+    background-color: #FFFFFF4D;
+    width: 350px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+form {
+    font-display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 24px;
+}
+
+form input {
+    margin-top: 20px;
+    height: 20px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #EE2689;
+    margin-bottom: 20px;
+}
+
+form input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-bottom: 2px solid #EE2689;
+}
+
+button {
+    border: none;
+    background-color: #FF65A1C4;
+    margin-top: 40px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #e4598ec4;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: white;
+    height: 150px;
+    color: black;
+}
+
+.footer .container7 {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.footer .txt1 {
+    font-size: 30px;
+    border-right: 1px solid #EE2689;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #EE2689;
+}
+
+
+
+.footer .txt2 {
+    width: 50%;
+    border-left: 1px solid #EE2689;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.txt2 h3 {
+    font-weight: normal;
+    color: #EE2689;
+}
+
+.agora {
+    font-weight: bold;
+}

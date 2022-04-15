@@ -171,6 +171,11 @@ a:hover {
     cursor: pointer;
 }
 
+.simulador .container4 button a {
+    text-decoration: none;
+    color: white;
+}
+
 .tecnologia {
     background-color: white;
 }
