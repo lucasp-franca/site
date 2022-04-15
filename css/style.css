@@ -149,7 +149,7 @@ a:hover {
 }
 
 .simulador .container4 img {
-    width: 300px;
+    width: 450px;
     margin-top: 170px;
     margin-right: 40px;
 }
@@ -195,8 +195,9 @@ a:hover {
 }
 
 .container5 img {
-    width: 400px;
-    margin-top: 20%;
+    width: 250px;
+    margin-top: 10%;
+    margin-left: 20%;
 }
 
 .caixa {
@@ -319,6 +320,8 @@ a:hover {
 }
 
 
-
+.agora {
+    font-weight: bold;
+}
 
 
